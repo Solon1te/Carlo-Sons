@@ -58,7 +58,6 @@ button {
   background-color: transparent;
   color: var(--color-white);
   font-size: 2rem;
-  padding-right: 1rem;
 }
 
 header .nav-btn {
@@ -74,30 +73,30 @@ header .nav-btn {
       opacity:1;
     }
 
+    nav a, .nav-close-btn {
+      margin-left: 2.2rem;
+    }
+
     header nav{
       position: fixed;
       top:0;
       left:0;
       height: 100vh;
-      width: 100vw;
-      display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      gap: 1.5rem;
       transition: 1s;
       transform: translateY(-100%);
       width: 100%;
       display: flex;
       justify-content: center;
       gap: 2%;
-      margin-right: 3rem;
+      margin-right: 2rem;
       background-color: rgba(0, 0, 0, .75);
       
     }
 
     header .responsive_nav{
-      transform:none;
+      transform:none ;
     }
 
     .carlo-sons-text {

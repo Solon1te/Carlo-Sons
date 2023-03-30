@@ -72,4 +72,12 @@ p ::first-line {
     .about-us {
         min-width: 80vw
     }
+
+    .about-us p, .about-us h1 {
+        min-width: 85%;
+    }
+
+    .grid-container {
+        padding: 0;
+    }
 }
