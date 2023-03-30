@@ -99,4 +99,10 @@ header .nav-btn {
     header .responsive_nav{
       transform:none;
     }
+
+    .carlo-sons-text {
+      display:flex;
+      margin: auto ;
+      padding: 0 2rem 0 0;
+    }
 }
