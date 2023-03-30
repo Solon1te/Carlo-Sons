@@ -11,10 +11,6 @@ const Footer = () => {
         <li><a href="#Contact">Contact</a></li>
       </ul>
         <img className='mini-logo' src={trees} alt="" />
-
-      <div className="footer__socials">
-        <a href="https://Linkedin.com"></a>
-      </div>
       <div className="footer__copyright">
         <small>&copy; Carlo & Sons all rights reserved.</small>
         <small>Page created by Mark Dietrich.</small>
