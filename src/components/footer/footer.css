@@ -4,25 +4,22 @@ footer {
 
 .permalinks {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 1rem;
     max-width: 30%;
     margin: 0 auto;
 }
 
 .permalinks li {
-    margin: 1rem;
+    margin: .2rem;
     transition: var(transition);
-}
-
-.permalinks li:hover {
-    text-decoration: underline;
 }
 
 .mini-logo{
     margin: 0 auto;
-    width:200px;
+    width:100px;
 }
 
 .footer__copyright {

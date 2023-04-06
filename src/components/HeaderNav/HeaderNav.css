@@ -44,7 +44,6 @@ nav a:hover {
   max-width: 72px;
   object-fit: cover;
   margin: 0% 0% .4% 2%;
-
 }
 
 .carlo-sons-text {
@@ -91,8 +90,7 @@ header .nav-btn {
       justify-content: center;
       gap: 2%;
       margin-right: 2rem;
-      background-color: rgba(0, 0, 0, .75);
-      
+      background-color: rgba(0, 0, 0, .75);  
     }
 
     header .responsive_nav{

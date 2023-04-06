@@ -16,20 +16,24 @@
 }
 
 .logo-img {
-    width: 60rem;
+    width: 50rem;
+    aspect-ratio: 1/1;
+    border-radius: 15rem;
+    padding-bottom: 1rem;
 }
-
-
-.btn:hover {
-    transform: scale(1.2);
-
-}
-
 
 /* Media Querys */
 
 @media screen and (max-width: 1024px) {
     .logo-img {
+        width: 60vw;
+        border-radius: 95vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo-img {
         width: 95vw;
+        border-radius: 95vw;
     }
 }
